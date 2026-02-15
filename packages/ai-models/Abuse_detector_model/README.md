@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements an intelligent, multilingual text moderation system designed to sanitize user-submitted complaints on public grievance platforms. The system automatically identifies, extracts, and masks abusive or toxic expressions across English, Hindi, Hinglish, and Odia while preserving the semantic intent of the original message. Built using a hybrid AI approach  , the system delivers high-precision abuse detection through the combined strengths of transformer-based toxicity scoring and large language model (LLM) phrase extraction.
+This project implements an intelligent, multilingual text moderation system designed to sanitize user-submitted complaints on public grievance platforms. The system automatically identifies, extracts, and masks abusive or toxic expressions across English, Hindi, Hinglish, and Odia while preserving the semantic intent of the original message. Built using a hybrid AI approach, the system delivers high-precision abuse detection through the combined strengths of transformer-based toxicity scoring and large language model (LLM) phrase extraction.
 
 ## Key Features
 
