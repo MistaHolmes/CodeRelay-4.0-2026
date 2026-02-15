@@ -1,5 +1,4 @@
 import React from "react";
-// footer component
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 interface Footer7Props {
