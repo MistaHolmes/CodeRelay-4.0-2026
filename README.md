@@ -15,12 +15,5 @@ Here are the public endpoints for the deployed services on the GKE Autopilot clu
 | **Self Service** | `https://iit-bbsr-swaraj-self.adityahota.online` | ✅ **Active** | Self-service portal API |
 | **ArgoCD** | `https://iit-bbsr-swaraj.adityahota.online` | ✅ **Active** | Continuous Deployment dashboard |
 
-### 🔍 Verification Log (Admin/User FE missing)
-- **Frontends (`user-fe`, `admin-fe`)**: These services do not have K8s manifests in `packages/k8s/` and their DNS records are not propagated. They are likely intended to be deployed separately (Vercel/Netlify) or are missing configuration.
-- **Backends**: All backend services are **reachable** and returning healthy status.
-
-## How to Access
-
 - All services are exposed via **Traefik Ingress Controller**
-- DNS records for backends connect to Traefik Load Balancer (`34.133.x.x`)
-- Verify connectivity: `curl https://iit-bbsr-swaraj-user-be.adityahota.online/api/health`
+- DNS records for backends connect to Traefik Load Balancer 
