@@ -66,9 +66,12 @@ export const Footer7 = ({
 }: Footer7Props) => {
   return (
     <div>
-             <div>
-          <LanguageSelector />
-        </div>
+      <div>
+        <LanguageSelector />
+      </div>
+      <div className="mt-4 text-center text-sm text-gray-500">
+        {copyright}
+      </div>
     </div>
   );
 };
