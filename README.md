@@ -1,4 +1,4 @@
-# SIH SwarajDesk Deployment URLs
+# SwarajDesk Deployment URLs
 
 Here are the public endpoints for the deployed services on the GKE Autopilot cluster.
 
